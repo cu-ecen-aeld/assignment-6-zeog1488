@@ -1,0 +1,23 @@
+From a020cd766dfe41313eb6687c380ccfeba36dfc4d Mon Sep 17 00:00:00 2001
+From: Zehariah Oginsky <zeog1488@colorado.edu>
+Date: Sat, 9 Mar 2024 13:50:49 -0700
+Subject: [PATCH] Modified makefile
+
+---
+ Makefile | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 7b08c49..eb6ed25 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,5 @@
+ 
+-SUBDIRS =  misc-progs misc-modules \
+-           skull scull scullc scullp lddbus sculld scullv shortprint simple tty \
+-	   pci usb\
+-	   sbull snull short
++SUBDIRS = misc-modules scull
+ 
+ all: subdirs
+ 
